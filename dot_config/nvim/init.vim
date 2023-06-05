@@ -10,6 +10,7 @@ set backupdir=~/.cache/vim
 set linebreak
 set number
 
+nnoremap <C-t> :NERDTreeToggle<CR>
 inoremap <expr> <CR> pumvisible() ? "\<C-Y>" : "\<CR>"
 
 autocmd TermOpen * setlocal nonumber norelativenumber
